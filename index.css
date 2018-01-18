@@ -1,0 +1,101 @@
+html body {
+	background-color: slategray;
+	height: 200%;
+}
+
+.header {
+	height: 100px;
+	width: 55%;
+	background-color: lightgray;
+	margin: 0 auto;
+	border-radius: 7px;
+	/*padding: 15px;*/
+}
+
+.company {
+	font-size: 80px;
+	text-align: center;
+
+}
+
+.contentbody {
+	height: 75%;
+	width: 55%;
+	background-color: lightgray;
+	margin: 0 auto;
+	border-radius: 7px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.headerphoto {
+	height: 600px;
+	width: 100%;
+	border-radius: 7px;
+}
+
+.photosize {
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	/*margin: 0 auto;*/
+	border-radius: 7px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 720px;
+  top: 155px;
+  overflow: auto;
+  background-color: rgba(70, 80, 90, 0.6);
+  padding: 10px 24px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  color: white;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.centeringModal {
+	height: 300px;
+	width: 350px;
+	margin: 0 auto;
+	border-radius: 7px;
+}
+
+.inputs {
+	margin: 5px;
+	margin-bottom: 11px;
+	display: block;
+	padding: 5px;
+	font-size: 25px;
+	border-radius: 7px;
+	background-color: lightgrey;
+}
+
+.submitbutton {
+	margin: 10px;
+	display: block;
+	padding: 5px;
+	font-size: 25px;
+	border-radius: 7px;
+}
